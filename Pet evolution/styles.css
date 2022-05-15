@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	background-color: aqua;
+}
+.section {
+	background-color: aquamarine;
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 10% 90%;
+	border-right: 8px groove gray;
+}
+.titlediv {
+	background-color: azure;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
+.title {
+	margin: 0;
+}
+.clikerdiv {
+	display: grid;
+	justify-content: center;
+	align-content: center;
+}
+.clikerbtndiv {
+	display: grid;
+	justify-items: center;
+}
+.clikerbtn {
+	margin-bottom: 5px;
+}
+.clicksh3 {
+	margin: 0;
+}
+.coindiv {
+	display: grid;
+  justify-items: center;
+  height: 30px;
+}
+.coinh3 {
+	margin: 5px 0 0 0;
+	font-size: 25px;
+}
+.petdiv {
+	display: grid;
+  justify-items: center;
+  grid-template-rows: 10% 90%;
+  align-items: center;
+}
+.shopdiv {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.itemshopbtn {
+	height: 100%;
+	width: 100%;
+}
+.mur {
+	display: grid;
+	justify-items: center;
+}
+.statsdiv {
+	display: grid;
+	justify-items: center;
+}
+.finishtextdiv {
+	display: grid;
+	position: absolute;
+	background-color: aliceblue;
+	height: 100%;
+}
+.secretback {
+	display: grid;
+	position: absolute;
+	background-image: url("/assets/kot.png");
+	height: 100%;
+}
+.finishtext {
+	margin: 30px 60px 0 40px;
+}
+.gametime {
+	margin: 0;
+	display: grid;
+	justify-items: center;
+	height: 0px;
+}
+.titles {
+	margin: 60px 60px 0 50px;
+}
+.secrettitle {
+	color: aliceblue;
+	margin: 0;
+	height: 30px;
+	display: grid;
+  justify-content: start;
+  align-items: center;
+}
+.secrettitle:hover {
+	background-color: #ffffff;
+	width: 100px;
+}
