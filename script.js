@@ -65,3 +65,17 @@ setTimeout(()=> {
 	}
 }, 7000)
 
+let leth1 = document.getElementById('leth1');
+
+var letters = "шаровнездийыубцяк"
+var random1 = Math.round(Math.random() * letters.length)
+
+leth1.onclick = () => {
+	leth1.textContent = ""
+	for (let i = 0; i < letters.length; i++) {
+		random1 = Math.round(Math.random() * letters.length)
+		if (letters[random1] != undefined) {
+			leth1.textContent += letters[random1]
+		}
+	}
+}
